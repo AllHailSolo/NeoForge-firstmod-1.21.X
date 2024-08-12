@@ -1,4 +1,9 @@
 {
   "item.firstmod.black_opal": "Black Opal",
-  "item.firstmod.raw_black_opal": "Raw Black Opal"
+  "item.firstmod.raw_black_opal": "Raw Black Opal",
+
+
+
+  "itemGroup.firstmod.black_opal_items_tab": "Black Opal Items",
+  "itemGroup.firstmod.black_opal_blocks_tab": "Black Opal Blocks"
 }

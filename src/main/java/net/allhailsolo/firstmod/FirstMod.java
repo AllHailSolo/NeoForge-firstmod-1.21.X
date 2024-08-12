@@ -1,5 +1,6 @@
 package net.allhailsolo.firstmod;
 
+import net.allhailsolo.firstmod.item.ModCreativeModeTabs;
 import net.allhailsolo.firstmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -39,6 +40,8 @@ public class FirstMod
         modEventBus.addListener(this::commonSetup);
 
         ModItems.register(modEventBus);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
