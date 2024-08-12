@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "firstmod:item/raw_black_opal"
+    "layer0": "firstmod:item/black_opal"
   }
 }
