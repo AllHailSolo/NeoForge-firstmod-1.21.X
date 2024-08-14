@@ -1,6 +1,7 @@
 package net.allhailsolo.firstmod.item;
 
 import net.allhailsolo.firstmod.FirstMod;
+import net.allhailsolo.firstmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -28,10 +29,15 @@ public class ModCreativeModeTabs {
     public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TAB =
             CREATIVE_MODE_TABS.register("black_opal_blocks_tab", () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.firstmod.black_opal_blocks_tab"))
-                    .icon(() -> new ItemStack(ModItems.RAW_BLACK_OPAL.get()))
+                    .icon(() -> new ItemStack(ModBlocks.BLACK_OPAL_BLOCK.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FirstMod.MOD_ID, "black_opal_items_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept((Blocks.ANDESITE));
+                        output.accept((ModBlocks.BLACK_OPAL_BLOCK));
+                        output.accept((ModBlocks.RAW_BLACK_OPAL_BLOCK));
+                        output.accept((ModBlocks.BLACK_OPAL_ORE));
+                        output.accept((ModBlocks.BLACK_OPAL_END_ORE));
+                        output.accept((ModBlocks.BLACK_OPAL_NETHER_ORE));
+                        output.accept((ModBlocks.BLACK_OPAL_DEEPSLATE_ORE));
                     })
                     .build());
 

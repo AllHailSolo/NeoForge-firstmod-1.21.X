@@ -1,5 +1,6 @@
 package net.allhailsolo.firstmod;
 
+import net.allhailsolo.firstmod.block.ModBlocks;
 import net.allhailsolo.firstmod.item.ModCreativeModeTabs;
 import net.allhailsolo.firstmod.item.ModItems;
 import org.slf4j.Logger;
@@ -40,6 +41,7 @@ public class FirstMod
         modEventBus.addListener(this::commonSetup);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
 
