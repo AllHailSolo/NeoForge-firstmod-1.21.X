@@ -1,6 +1,7 @@
 package net.allhailsolo.firstmod.block.custom;
 
 import net.allhailsolo.firstmod.item.ModItems;
+import net.allhailsolo.firstmod.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
@@ -42,8 +43,7 @@ public class MagicBlock extends Block {
     }
 
     private boolean isValidItem(ItemStack item) {
-        return item.getItem() == ModItems.RAW_BLACK_OPAL.get() || item.getItem() == Items.COAL
-                || item.getItem() == Items.DANDELION;
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 
     @Override

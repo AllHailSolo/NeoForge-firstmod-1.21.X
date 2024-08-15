@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "black_opal",
+  "ingredient": {
+    "item": "firstmod:black_opal_deepslate_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "firstmod:black_opal"
+  }
+}

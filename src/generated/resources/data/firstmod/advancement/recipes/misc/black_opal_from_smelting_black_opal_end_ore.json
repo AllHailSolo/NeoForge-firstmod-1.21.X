@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_black_opal_end_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "firstmod:black_opal_end_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "firstmod:black_opal_from_smelting_black_opal_end_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_black_opal_end_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "firstmod:black_opal_from_smelting_black_opal_end_ore"
+    ]
+  }
+}
