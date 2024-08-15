@@ -24,6 +24,10 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.BLACK_OPAL);
                         output.accept(ModItems.RAW_BLACK_OPAL);
+
+                        output.accept(ModItems.CHAINSAW);
+                        output.accept(ModItems.TOMATO);
+                        output.accept(ModItems.FROSTFIRE_ICE);
                     })
                     .build());
     public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TAB =
@@ -38,6 +42,7 @@ public class ModCreativeModeTabs {
                         output.accept((ModBlocks.BLACK_OPAL_END_ORE));
                         output.accept((ModBlocks.BLACK_OPAL_NETHER_ORE));
                         output.accept((ModBlocks.BLACK_OPAL_DEEPSLATE_ORE));
+                        output.accept((ModBlocks.MAGIC_BLOCK));
                     })
                     .build());
 

@@ -1,6 +1,8 @@
 {
   "item.firstmod.black_opal": "Black Opal",
   "item.firstmod.raw_black_opal": "Raw Black Opal",
+  "item.firstmod.tomato": "Tomato",
+  "item.firstmod.frostfire_ice": "Frostfire Ice",
 
   "block.firstmod.black_opal_block": "Block of Opal Block",
   "block.firstmod.raw_black_opal_block": "Raw Block Opal Block",
@@ -9,7 +11,15 @@
   "block.firstmod.black_opal_nether_ore": "Black Opal Nether Ore",
   "block.firstmod.black_opal_deepslate_ore": "Black Opal Deepslate Ore",
 
+  "block.firstmod.magic_block": "Magic Block",
 
+  "item.firstmod.chainsaw": "Chainsaw",
+
+  "tooltop.firstmod.chainsaw.tooltip.shift": "Press §eShift§r For More Information",
+  "tooltop.firstmod.chainsaw.tooltip.1": "This chainsaw can cut down logs",
+  "tooltop.firstmod.chainsaw.tooltip.2": "§oChainsaw go vroom!§r",
+  "tooltip.firstmod.magic_block.1": "Converts Certain Items Into Diamonds",
+  "tooltip.firstmod.tomato": "Chance to give extra hearts for a short duration.",
 
   "itemGroup.firstmod.black_opal_items_tab": "Black Opal Items",
   "itemGroup.firstmod.black_opal_blocks_tab": "Black Opal Blocks"

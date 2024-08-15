@@ -1,6 +1,7 @@
 package net.allhailsolo.firstmod.block;
 
 import net.allhailsolo.firstmod.FirstMod;
+import net.allhailsolo.firstmod.block.custom.MagicBlock;
 import net.allhailsolo.firstmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -48,5 +49,9 @@ public class ModBlocks {
     public static final DeferredBlock<Block> BLACK_OPAL_DEEPSLATE_ORE = registerBlock("black_opal_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(2,5),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
+
+
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
 
 }
