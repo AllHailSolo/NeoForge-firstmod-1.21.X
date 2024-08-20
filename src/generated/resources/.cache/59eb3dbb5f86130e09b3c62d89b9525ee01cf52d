@@ -1,8 +1,17 @@
-// 1.21.1	2024-08-15T17:36:04.1526859	Loot Tables
+// 1.21.1	2024-08-19T16:16:30.1854581	Loot Tables
 e6380251f230c54664120c59c077f15ab829d180 data/firstmod/loot_table/blocks/black_opal_block.json
+fb31c07bfd45310fd70f5aad973b6dacfb264b64 data/firstmod/loot_table/blocks/black_opal_button.json
 07db6441b9e17eebf64530748a03b23e84b9263b data/firstmod/loot_table/blocks/black_opal_deepslate_ore.json
+ffc2c9b6959ec844caeb7437b820de3227663100 data/firstmod/loot_table/blocks/black_opal_door.json
 f5a86f4da7be43b9d57d7642916d7db18ea94bc5 data/firstmod/loot_table/blocks/black_opal_end_ore.json
+7e6aa52def213d7491d3d4853f65fd097d0d28ed data/firstmod/loot_table/blocks/black_opal_fence.json
+ec5e9633d12b503af8593533ee8565b2e0c2f601 data/firstmod/loot_table/blocks/black_opal_fence_gate.json
 52bc5af1a8775d294607f60f4e5d45425d087d37 data/firstmod/loot_table/blocks/black_opal_nether_ore.json
 3bf05d5b3c6d6c7b26dedeba442ae79c0ebbdc84 data/firstmod/loot_table/blocks/black_opal_ore.json
+a58276a4250352264fe67b8211fe7e764a1eea26 data/firstmod/loot_table/blocks/black_opal_pressure_plate.json
+6f88b9e715b45d7dfe8543c965e042d23e39b4c1 data/firstmod/loot_table/blocks/black_opal_slab.json
+d13b0fcd03b6afff66373317df6338a342580175 data/firstmod/loot_table/blocks/black_opal_stairs.json
+57b3eb13e11e3486d35bb7b697cdd727bf8de718 data/firstmod/loot_table/blocks/black_opal_trapdoor.json
+adfea2c5a9f46d549baf9ec3b4d556bcaa88bca2 data/firstmod/loot_table/blocks/black_opal_wall.json
 db1fa49d36624555abfffb1bffd5484841cbc6c5 data/firstmod/loot_table/blocks/magic_block.json
 550cb0f2c7312ad6d461f8cd67453442b871ab44 data/firstmod/loot_table/blocks/raw_black_opal_block.json

@@ -1,5 +1,20 @@
-// 1.21.1	2024-08-15T17:36:04.1536862	Item Models: firstmod
+// 1.21.1	2024-08-19T23:11:31.7209381	Item Models: firstmod
 5c7487043f10662e7d3c558c4a58271fad8fc1a2 assets/firstmod/models/item/black_opal.json
+f95c4202a7f9c50e7f0e11ca6bad8331a7c248ed assets/firstmod/models/item/black_opal_axe.json
+fad8ccfbb61432082d31f7b3de8cc960b927d328 assets/firstmod/models/item/black_opal_boots.json
+0512d48ac46408fdb587243370fb92c88f1a0439 assets/firstmod/models/item/black_opal_button.json
+30277dd301b77d3948b2cb0363aa048c5f695080 assets/firstmod/models/item/black_opal_chestplate.json
+1302c02312749e74376b96bb3752fbc67fc92dd5 assets/firstmod/models/item/black_opal_door.json
+e40bc89cbd9089718f95d97e28bfa3a477a4b35c assets/firstmod/models/item/black_opal_fence.json
+e7ade1e0def5ef7b8be72278f12ac27a8ef0c217 assets/firstmod/models/item/black_opal_hammer.json
+f52126505e4245c1f60703a751241ce73a93a84c assets/firstmod/models/item/black_opal_helmet.json
+1d2e7c55568f8cbe3db73532cf70f66f9ee58774 assets/firstmod/models/item/black_opal_hoe.json
+40ba90f8f122b46c47b9a183c8cd4ee0d46f5189 assets/firstmod/models/item/black_opal_leggings.json
+fcbfe0b2ba7dd30e091ba81349bf08e6068ce06d assets/firstmod/models/item/black_opal_paxel.json
+2e3561c79d57c51e74546c76da7c18e006e84fe0 assets/firstmod/models/item/black_opal_pickaxe.json
+593f7095cd956f52ed92642b809430da05e50025 assets/firstmod/models/item/black_opal_shovel.json
+7b3943d282da57369b621c5f8938597d9bad11ae assets/firstmod/models/item/black_opal_sword.json
+50fea46d0b8298f203eda15c6431c1d14ef047b2 assets/firstmod/models/item/black_opal_wall.json
 8cd3f779054ba7d5a7a782f4c7abe358645cd26d assets/firstmod/models/item/chainsaw.json
 238fe8d9402778a80d79757d3094f798a8d35fbb assets/firstmod/models/item/frostfire_ice.json
 3e9d13ff40d7b4af8331e0b2a243b90b07e9a344 assets/firstmod/models/item/raw_black_opal.json

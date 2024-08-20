@@ -28,6 +28,20 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CHAINSAW);
                         output.accept(ModItems.TOMATO);
                         output.accept(ModItems.FROSTFIRE_ICE);
+
+                        output.accept(ModItems.BLACK_OPAL_HOE);
+                        output.accept(ModItems.BLACK_OPAL_SWORD);
+                        output.accept(ModItems.BLACK_OPAL_PICKAXE);
+                        output.accept(ModItems.BLACK_OPAL_AXE);
+                        output.accept(ModItems.BLACK_OPAL_SHOVEL);
+
+                        output.accept(ModItems.BLACK_OPAL_PAXEL);
+                        output.accept(ModItems.BLACK_OPAL_HAMMER);
+
+                        output.accept(ModItems.BLACK_OPAL_HELMET);
+                        output.accept(ModItems.BLACK_OPAL_CHESTPLATE);
+                        output.accept(ModItems.BLACK_OPAL_LEGGINGS);
+                        output.accept(ModItems.BLACK_OPAL_BOOTS);
                     })
                     .build());
     public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TAB =
@@ -43,6 +57,15 @@ public class ModCreativeModeTabs {
                         output.accept((ModBlocks.BLACK_OPAL_NETHER_ORE));
                         output.accept((ModBlocks.BLACK_OPAL_DEEPSLATE_ORE));
                         output.accept((ModBlocks.MAGIC_BLOCK));
+                        output.accept((ModBlocks.BLACK_OPAL_SLAB));
+                        output.accept((ModBlocks.BLACK_OPAL_STAIRS));
+                        output.accept((ModBlocks.BLACK_OPAL_PRESSURE_PLATE));
+                        output.accept((ModBlocks.BLACK_OPAL_BUTTON));
+                        output.accept((ModBlocks.BLACK_OPAL_FENCE));
+                        output.accept((ModBlocks.BLACK_OPAL_FENCE_GATE));
+                        output.accept((ModBlocks.BLACK_OPAL_WALL));
+                        output.accept((ModBlocks.BLACK_OPAL_DOOR));
+                        output.accept((ModBlocks.BLACK_OPAL_TRAPDOOR));
                     })
                     .build());
 

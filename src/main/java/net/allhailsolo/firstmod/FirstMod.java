@@ -1,6 +1,7 @@
 package net.allhailsolo.firstmod;
 
 import net.allhailsolo.firstmod.block.ModBlocks;
+import net.allhailsolo.firstmod.item.ModArmorMaterials;
 import net.allhailsolo.firstmod.item.ModCreativeModeTabs;
 import net.allhailsolo.firstmod.item.ModItems;
 import org.slf4j.Logger;
@@ -44,6 +45,8 @@ public class FirstMod
         ModBlocks.register(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
+
+        ModArmorMaterials.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "black_opal",
+  "key": {
+    "#": {
+      "item": "firstmod:black_opal"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "firstmod:black_opal_stairs"
+  }
+}

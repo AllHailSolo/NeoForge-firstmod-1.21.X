@@ -6,6 +6,8 @@
     "firstmod:black_opal_deepslate_ore",
     "firstmod:black_opal_nether_ore",
     "firstmod:black_opal_end_ore",
-    "firstmod:magic_block"
+    "firstmod:magic_block",
+    "firstmod:black_opal_stairs",
+    "firstmod:black_opal_slab"
   ]
 }

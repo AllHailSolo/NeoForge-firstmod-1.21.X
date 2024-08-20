@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "firstmod:black_opal"
+    }
+  },
+  "pattern": [
+    "BB",
+    " A",
+    " A"
+  ],
+  "result": {
+    "count": 1,
+    "id": "firstmod:black_opal_hoe"
+  }
+}

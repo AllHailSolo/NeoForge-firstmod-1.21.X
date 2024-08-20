@@ -4,8 +4,29 @@
   "item.firstmod.tomato": "Tomato",
   "item.firstmod.frostfire_ice": "Frostfire Ice",
 
+  "item.firstmod.black_opal_sword": "Black Opal Sword",
+  "item.firstmod.black_opal_pickaxe": "Black Opal Pickaxe",
+  "item.firstmod.black_opal_axe": "Black Opal Axe",
+  "item.firstmod.black_opal_shovel": "Black Opal Shovel",
+  "item.firstmod.black_opal_hoe": "Black Opal Hoe",
+  "item.firstmod.black_opal_paxel": "Black Opal Paxel",
+  "item.firstmod.black_opal_hammer": "Black Opal Hammer",
+
+  "item.firstmod.black_opal_helmet": "Black Opal Helmet",
+  "item.firstmod.black_opal_chestplate": "Black Opal Chestplate",
+  "item.firstmod.black_opal_leggings": "Black Opal Leggings",
+  "item.firstmod.black_opal_boots": "Black Opal Boots",
+
   "block.firstmod.black_opal_block": "Block of Opal Block",
   "block.firstmod.raw_black_opal_block": "Raw Block Opal Block",
+
+  "block.firstmod.black_opal_stairs": "Black Opal Stairs",
+  "block.firstmod.black_opal_slab": "Black Opal Slab",
+  "block.firstmod.black_opal_pressure_plate": "Black Opal Pressure Plate",
+  "block.firstmod.black_opal_button": "Black Opal Button",
+  "block.firstmod.black_opal_door": "Black Opal Door",
+  "block.firstmod.black_opal_trapdoor": "Black Opal Trapdoor",
+
   "block.firstmod.black_opal_ore": "Black Opal Ore",
   "block.firstmod.black_opal_end_ore": "Black Opal End Ore",
   "block.firstmod.black_opal_nether_ore": "Black Opal Nether Ore",
