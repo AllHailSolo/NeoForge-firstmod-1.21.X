@@ -16,14 +16,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HammerItem extends DiggerItem {
-    public static int range = 0;
+    private int range;
     public HammerItem(Tier tier, Properties properties, int range) {
         super(tier, BlockTags.MINEABLE_WITH_PICKAXE, properties);
         this.range = range;
     }
 
 
-    public static List<BlockPos> getBlocksToBeDestroyed(BlockPos initalBlockPos, ServerPlayer player) {
+    public List<BlockPos> getBlocksToBeDestroyed(BlockPos initalBlockPos, ServerPlayer player) {
         List<BlockPos> positions = new ArrayList<>();
 
         BlockHitResult traceResult = player.level().clip(new ClipContext(player.getEyePosition(1f),

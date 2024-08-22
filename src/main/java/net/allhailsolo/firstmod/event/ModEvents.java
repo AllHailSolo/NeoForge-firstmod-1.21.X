@@ -29,7 +29,7 @@ public class ModEvents {
                 return;
             }
 
-            for (BlockPos pos : HammerItem.getBlocksToBeDestroyed(initialBlockPos, serverPlayer)) {
+            for (BlockPos pos : hammer.getBlocksToBeDestroyed(initialBlockPos, serverPlayer)) {
                 if (pos == initialBlockPos || !hammer.isCorrectToolForDrops(mainHandItem, event.getLevel().getBlockState(pos))) {
                     continue;
                 }

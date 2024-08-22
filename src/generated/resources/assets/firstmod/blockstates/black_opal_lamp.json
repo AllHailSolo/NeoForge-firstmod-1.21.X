@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "firstmod:block/black_opal_lamp_off"
+    },
+    "clicked=true": {
+      "model": "firstmod:block/black_opal_lamp_on"
+    }
+  }
+}

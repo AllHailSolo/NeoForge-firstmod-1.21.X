@@ -38,6 +38,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.BLACK_OPAL_HOE);
         handheldItem(ModItems.BLACK_OPAL_PAXEL);
         handheldItem(ModItems.BLACK_OPAL_HAMMER);
+        handheldItem(ModItems.HAMMER);
 
         basicItem(ModItems.BLACK_OPAL_HELMET.get());
         basicItem(ModItems.BLACK_OPAL_CHESTPLATE.get());

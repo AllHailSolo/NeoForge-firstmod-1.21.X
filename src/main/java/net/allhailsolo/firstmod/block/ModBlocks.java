@@ -1,6 +1,7 @@
 package net.allhailsolo.firstmod.block;
 
 import net.allhailsolo.firstmod.FirstMod;
+import net.allhailsolo.firstmod.block.custom.BlackOpalLampBlock;
 import net.allhailsolo.firstmod.block.custom.MagicBlock;
 import net.allhailsolo.firstmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -54,6 +55,10 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> BLACK_OPAL_LAMP = registerBlock("black_opal_lamp",
+            () -> new BlackOpalLampBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(BlackOpalLampBlock.CLICKED) ? 15 : 0)));
+
     public static final DeferredBlock<Block> BLACK_OPAL_STAIRS = registerBlock("black_opal_stairs",
             () -> new StairBlock(ModBlocks.BLACK_OPAL_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<Block> BLACK_OPAL_SLAB = registerBlock("black_opal_slab",

@@ -48,6 +48,8 @@ public class ModItems {
             () -> new PaxelItem(ModToolTiers.BLACK_OPAL, new Item.Properties().attributes(PickaxeItem.createAttributes(ModToolTiers.BLACK_OPAL, 1, -2.8f))));
     public static final DeferredItem<Item> BLACK_OPAL_HAMMER = ITEMS.register("black_opal_hammer",
             () -> new HammerItem(ModToolTiers.BLACK_OPAL, new Item.Properties().attributes(PickaxeItem.createAttributes(ModToolTiers.BLACK_OPAL, 1, -3.3f)), 10));
+    public static final DeferredItem<Item> HAMMER = ITEMS.register("hammer",
+            () -> new HammerItem(ModToolTiers.BLACK_OPAL, new Item.Properties().attributes(PickaxeItem.createAttributes(ModToolTiers.BLACK_OPAL, 1, -3.3f)), 5));
 
     public static final DeferredItem<Item> BLACK_OPAL_HELMET = ITEMS.register("black_opal_helmet",
             () -> new ModArmorItem(ModArmorMaterials.BLACK_OPAL, ArmorItem.Type.HELMET, new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(16))));

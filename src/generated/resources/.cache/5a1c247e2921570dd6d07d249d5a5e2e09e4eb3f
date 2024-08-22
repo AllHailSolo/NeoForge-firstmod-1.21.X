@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-19T16:16:30.1874634	Block States: firstmod
+// 1.21.1	2024-08-22T11:14:01.6192736	Block States: firstmod
 fee39b0ca90177688b0b31bdb540bb85bd8b34d4 assets/firstmod/blockstates/black_opal_block.json
 c55ea2b21608cbe78b79fe7ba802c12e08f8e1d6 assets/firstmod/blockstates/black_opal_button.json
 f1188aa242e65f042d2d7be269ec275df26b158d assets/firstmod/blockstates/black_opal_deepslate_ore.json
@@ -6,6 +6,7 @@ f1188aa242e65f042d2d7be269ec275df26b158d assets/firstmod/blockstates/black_opal_
 6a2f560f81bb32b3169cc43e50cee826cfd235a6 assets/firstmod/blockstates/black_opal_end_ore.json
 bce50d8ac70dce08d70e41a9626d439a504d2ae3 assets/firstmod/blockstates/black_opal_fence.json
 55805cbfbf9036c8f1b74137f31e76f7daaff09b assets/firstmod/blockstates/black_opal_fence_gate.json
+c905fae64a4c95b6ba20d6d13e48a221b59fe633 assets/firstmod/blockstates/black_opal_lamp.json
 f0a63cf087480626ba509d27fb21120bef452baf assets/firstmod/blockstates/black_opal_nether_ore.json
 229e7233dc7151eb7eed215b50dbbf88d8b1a028 assets/firstmod/blockstates/black_opal_ore.json
 b18a7a42f13c1d4fe55bb345263287e40991c6ed assets/firstmod/blockstates/black_opal_pressure_plate.json
@@ -34,6 +35,8 @@ ed364713c6582e0d1b01454acdde7f13c9e1f1a3 assets/firstmod/models/block/black_opal
 34698d781c6d80de89c32145f97f4e7fc67925d2 assets/firstmod/models/block/black_opal_fence_gate_wall_open.json
 9ba195215ddef172d1554ab5eb59dbe2b4267d0c assets/firstmod/models/block/black_opal_fence_post.json
 5ad765fc8368c61fd918271fe17ec37ba9c76c15 assets/firstmod/models/block/black_opal_fence_side.json
+45d1c89ae89d0deefade3c3c620982a6ad72fa59 assets/firstmod/models/block/black_opal_lamp_off.json
+573f740fce6f40bd8ce51d8cb4fc96cfbfe2a511 assets/firstmod/models/block/black_opal_lamp_on.json
 23f0479f3c4e6f27ec75c9e89bb9c763af93ac71 assets/firstmod/models/block/black_opal_nether_ore.json
 12792da03d20b957f3f6eacdbce919802aa742b2 assets/firstmod/models/block/black_opal_ore.json
 424ced6203f116f41f1a3dfcfda4ee0a1c47a687 assets/firstmod/models/block/black_opal_pressure_plate.json
@@ -55,6 +58,7 @@ feaa59910fd3e19c185895ec7473395422cd55a3 assets/firstmod/models/item/black_opal_
 1348983ab5acc99c7440bb165836b56635446b11 assets/firstmod/models/item/black_opal_deepslate_ore.json
 20d5fea52da0f63b7ae628e8090006bb17bf6582 assets/firstmod/models/item/black_opal_end_ore.json
 4081ed9cc99172daedb9f0bc6e4648c0cbe7d8c4 assets/firstmod/models/item/black_opal_fence_gate.json
+4856739f5afb055363b0885e0f1f1b65b573a02f assets/firstmod/models/item/black_opal_lamp.json
 b1015c38fdf898c0466b768f53b2b0af0468e2f2 assets/firstmod/models/item/black_opal_nether_ore.json
 5f07c69b1caf376e77958b649b729be10a4fd035 assets/firstmod/models/item/black_opal_ore.json
 e6925a7b7a65c5e5febc97dc6e9b5c57780eefec assets/firstmod/models/item/black_opal_pressure_plate.json
