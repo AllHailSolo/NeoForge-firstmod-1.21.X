@@ -51,6 +51,13 @@ public class ModItems {
     public static final DeferredItem<Item> HAMMER = ITEMS.register("hammer",
             () -> new HammerItem(ModToolTiers.BLACK_OPAL, new Item.Properties().attributes(PickaxeItem.createAttributes(ModToolTiers.BLACK_OPAL, 1, -3.3f)), 5));
 
+    public static final DeferredItem<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+            () -> new MetalDetectorItem(new Item.Properties().durability(100)));
+    public static final DeferredItem<Item> DATA_TABLET = ITEMS.register("data_tablet",
+            () -> new DataTabletItem(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> OPAL_BOW = ITEMS.register("opal_bow",
+            () -> new BowItem(new Item.Properties().durability(500)));
+
     public static final DeferredItem<Item> BLACK_OPAL_HELMET = ITEMS.register("black_opal_helmet",
             () -> new ModArmorItem(ModArmorMaterials.BLACK_OPAL, ArmorItem.Type.HELMET, new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(16))));
     public static final DeferredItem<Item> BLACK_OPAL_CHESTPLATE = ITEMS.register("black_opal_chestplate",

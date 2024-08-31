@@ -38,6 +38,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BLACK_OPAL_PAXEL);
                         output.accept(ModItems.BLACK_OPAL_HAMMER);
 
+                        output.accept(ModItems.METAL_DETECTOR);
+                        output.accept(ModItems.DATA_TABLET);
+
+                        output.accept(ModItems.OPAL_BOW);
+
                         output.accept(ModItems.BLACK_OPAL_HELMET);
                         output.accept(ModItems.BLACK_OPAL_CHESTPLATE);
                         output.accept(ModItems.BLACK_OPAL_LEGGINGS);

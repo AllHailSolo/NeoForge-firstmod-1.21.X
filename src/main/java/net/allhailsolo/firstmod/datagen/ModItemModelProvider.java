@@ -25,6 +25,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.CHAINSAW.get());
         basicItem(ModItems.TOMATO.get());
         basicItem(ModItems.FROSTFIRE_ICE.get());
+        basicItem(ModItems.METAL_DETECTOR.get());
+        //basicItem(ModItems.DATA_TABLET.get());
 
         buttonItem(ModBlocks.BLACK_OPAL_BUTTON, ModBlocks.BLACK_OPAL_BLOCK);
         fenceItem(ModBlocks.BLACK_OPAL_FENCE, ModBlocks.BLACK_OPAL_BLOCK);

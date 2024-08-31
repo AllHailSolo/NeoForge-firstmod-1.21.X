@@ -1,5 +1,6 @@
 package net.allhailsolo.firstmod.item.custom;
 
+import net.allhailsolo.firstmod.component.ModDataComponentTypes;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.network.chat.Component;
@@ -31,6 +32,8 @@ public class ChainsawItem extends Item {
 
                 context.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), ((ServerPlayer) context.getPlayer()),
                         item -> context.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
+
+                context.getItemInHand().set(ModDataComponentTypes.COORDINATES.get(), context.getClickedPos());
             }
         }
 
@@ -44,6 +47,10 @@ public class ChainsawItem extends Item {
             tooltipComponents.add(Component.translatable("tooltop.firstmod.chainsaw.tooltip.2"));
         } else {
             tooltipComponents.add(Component.translatable("tooltop.firstmod.chainsaw.tooltip.shift"));
+        }
+
+        if (stack.get(ModDataComponentTypes.COORDINATES) != null) {
+            tooltipComponents.add(Component.translatable("Last Tree was chopped at " + stack.get(ModDataComponentTypes.COORDINATES)));
         }
 
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);

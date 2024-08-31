@@ -1,9 +1,11 @@
 package net.allhailsolo.firstmod;
 
 import net.allhailsolo.firstmod.block.ModBlocks;
+import net.allhailsolo.firstmod.component.ModDataComponentTypes;
 import net.allhailsolo.firstmod.item.ModArmorMaterials;
 import net.allhailsolo.firstmod.item.ModCreativeModeTabs;
 import net.allhailsolo.firstmod.item.ModItems;
+import net.allhailsolo.firstmod.util.ModItemProperties;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -47,6 +49,8 @@ public class FirstMod
         ModCreativeModeTabs.register(modEventBus);
 
         ModArmorMaterials.register(modEventBus);
+
+        ModDataComponentTypes.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
@@ -97,6 +101,7 @@ public class FirstMod
             // Some client setup code
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }
