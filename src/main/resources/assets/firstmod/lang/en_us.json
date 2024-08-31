@@ -5,6 +5,7 @@
   "item.firstmod.frostfire_ice": "Frostfire Ice",
   "item.firstmod.metal_detector": "Metal_Detector",
   "item.firstmod.data_tablet": "Data Tablet",
+  "item.firstmod.tomato_seeds": "Tomato Seeds",
 
   "item.firstmod.black_opal_sword": "Black Opal Sword",
   "item.firstmod.black_opal_pickaxe": "Black Opal Pickaxe",
@@ -36,6 +37,11 @@
   "block.firstmod.black_opal_deepslate_ore": "Black Opal Deepslate Ore",
 
   "block.firstmod.magic_block": "Magic Block",
+
+  "block.firstmod.tomato_crop": "Tomato Crop",
+  "block.firstmod.petunia": "Petunia",
+  "block.firstmod.potted_petunia": "Potted Petunia",
+  "block.firstmod.colored_leaves": "Colored Leaves",
 
   "block.firstmod.black_opal_lamp": "Black Opal Lamp",
 

@@ -27,6 +27,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.FROSTFIRE_ICE.get());
         basicItem(ModItems.METAL_DETECTOR.get());
         //basicItem(ModItems.DATA_TABLET.get());
+        basicItem(ModItems.TOMATO_SEEDS.get());
 
         buttonItem(ModBlocks.BLACK_OPAL_BUTTON, ModBlocks.BLACK_OPAL_BLOCK);
         fenceItem(ModBlocks.BLACK_OPAL_FENCE, ModBlocks.BLACK_OPAL_BLOCK);
@@ -46,12 +47,19 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.BLACK_OPAL_CHESTPLATE.get());
         basicItem(ModItems.BLACK_OPAL_LEGGINGS.get());
         basicItem(ModItems.BLACK_OPAL_BOOTS.get());
+
+        flowerItem(ModBlocks.PETUNIA);
     }
 
     public void buttonItem(DeferredBlock<Block> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/button_inventory"))
                 .texture("texture", ResourceLocation.fromNamespaceAndPath(FirstMod.MOD_ID,
                         "block/" + baseBlock.getId().getPath()));
+    }
+    public void flowerItem(DeferredBlock<Block> block) {
+        this.withExistingParent(block.getId().getPath(), mcLoc("item/generated"))
+                .texture("layer0", ResourceLocation.fromNamespaceAndPath(FirstMod.MOD_ID,
+                        "block/" + block.getId().getPath()));
     }
     public void fenceItem(DeferredBlock<Block> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/fence_inventory"))

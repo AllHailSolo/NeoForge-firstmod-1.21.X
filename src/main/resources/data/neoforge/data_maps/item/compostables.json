@@ -1,0 +1,10 @@
+{
+  "values": {
+    "firstmod:tomato": {
+      "chance": 0.45
+    } ,
+    "firstmod:tomato_seeds": {
+      "chance": 0.2
+    }
+  }
+}

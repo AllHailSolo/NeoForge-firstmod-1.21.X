@@ -1,4 +1,4 @@
-// 1.21.1	2024-08-22T11:14:01.6177724	Loot Tables
+// 1.21.1	2024-08-31T17:20:51.1483567	Loot Tables
 e6380251f230c54664120c59c077f15ab829d180 data/firstmod/loot_table/blocks/black_opal_block.json
 fb31c07bfd45310fd70f5aad973b6dacfb264b64 data/firstmod/loot_table/blocks/black_opal_button.json
 07db6441b9e17eebf64530748a03b23e84b9263b data/firstmod/loot_table/blocks/black_opal_deepslate_ore.json
@@ -14,5 +14,9 @@ a58276a4250352264fe67b8211fe7e764a1eea26 data/firstmod/loot_table/blocks/black_o
 d13b0fcd03b6afff66373317df6338a342580175 data/firstmod/loot_table/blocks/black_opal_stairs.json
 57b3eb13e11e3486d35bb7b697cdd727bf8de718 data/firstmod/loot_table/blocks/black_opal_trapdoor.json
 adfea2c5a9f46d549baf9ec3b4d556bcaa88bca2 data/firstmod/loot_table/blocks/black_opal_wall.json
+ce319e4ffa5dbaa747c5ce52b5d7828782c7bd8a data/firstmod/loot_table/blocks/colored_leaves.json
 db1fa49d36624555abfffb1bffd5484841cbc6c5 data/firstmod/loot_table/blocks/magic_block.json
+5e07df36ffe6d4c9c38497ab40afaf20e88518f5 data/firstmod/loot_table/blocks/petunia.json
+c885f4ccb5847cc0cd00d81fdc640818f65890ad data/firstmod/loot_table/blocks/potter_petunia.json
 550cb0f2c7312ad6d461f8cd67453442b871ab44 data/firstmod/loot_table/blocks/raw_black_opal_block.json
+884fb85688b98cff47d056dd34aae6d359cf7eae data/firstmod/loot_table/blocks/tomato_crop.json

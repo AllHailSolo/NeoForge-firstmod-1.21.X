@@ -3,8 +3,10 @@ package net.allhailsolo.firstmod.block;
 import net.allhailsolo.firstmod.FirstMod;
 import net.allhailsolo.firstmod.block.custom.BlackOpalLampBlock;
 import net.allhailsolo.firstmod.block.custom.MagicBlock;
+import net.allhailsolo.firstmod.block.custom.TomatoCropBlock;
 import net.allhailsolo.firstmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -77,5 +79,15 @@ public class ModBlocks {
             () -> new DoorBlock(BlockSetType.IRON , BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().noOcclusion()));
     public static final DeferredBlock<Block> BLACK_OPAL_TRAPDOOR = registerBlock("black_opal_trapdoor",
             () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final DeferredBlock<Block> TOMATO_CROP = BLOCKS.register("tomato_crop",
+            () -> new TomatoCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+    public static final DeferredBlock<Block> PETUNIA = registerBlock("petunia",
+            () -> new FlowerBlock(MobEffects.DOLPHINS_GRACE, 8, BlockBehaviour.Properties.ofFullCopy(Blocks.ALLIUM)));
+    public static final DeferredBlock<Block> POTTED_PETUNIA = BLOCKS.register("potter_petunia",
+            () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), PETUNIA, BlockBehaviour.Properties.ofFullCopy(Blocks.POTTED_ALLIUM)));
+
+    public static final DeferredBlock<Block> COLORED_LEAVES = registerBlock("colored_leaves",
+            () -> new Block(BlockBehaviour.Properties.of().noOcclusion()));
 
 }

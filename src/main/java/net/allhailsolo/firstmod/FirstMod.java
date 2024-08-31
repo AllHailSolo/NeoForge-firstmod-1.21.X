@@ -6,6 +6,10 @@ import net.allhailsolo.firstmod.item.ModArmorMaterials;
 import net.allhailsolo.firstmod.item.ModCreativeModeTabs;
 import net.allhailsolo.firstmod.item.ModItems;
 import net.allhailsolo.firstmod.util.ModItemProperties;
+import net.minecraft.client.renderer.BiomeColors;
+import net.minecraft.world.level.FoliageColor;
+import net.minecraft.world.level.block.FlowerPotBlock;
+import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -65,15 +69,9 @@ public class FirstMod
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        // Some common setup code
-        LOGGER.info("HELLO FROM COMMON SETUP");
-
-        if (Config.logDirtBlock)
-            LOGGER.info("DIRT BLOCK >> {}", BuiltInRegistries.BLOCK.getKey(Blocks.DIRT));
-
-        LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
-
-        Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
+        event.enqueueWork(() -> {
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.PETUNIA.getId(), ModBlocks.POTTED_PETUNIA);
+        });
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
@@ -102,6 +100,15 @@ public class FirstMod
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
             ModItemProperties.addCustomItemProperties();
+        }
+        @SubscribeEvent
+        public static void registerColoredBlocks(RegisterColorHandlersEvent.Block event) {
+            event.register((blockState, blockAndTintGetter, blockPos, i) -> blockAndTintGetter != null &&
+                    blockPos != null ? BiomeColors.getAverageFoliageColor(blockAndTintGetter, blockPos) : FoliageColor.getDefaultColor(), ModBlocks.COLORED_LEAVES.get());
+        }
+        @SubscribeEvent
+        public static void registerColoredItems(RegisterColorHandlersEvent.Item event) {
+            event.register((itemStack, i) -> FoliageColor.getDefaultColor(), ModBlocks.COLORED_LEAVES);
         }
     }
 }
